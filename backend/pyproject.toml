@@ -1,0 +1,19 @@
+[project]
+name = "bob-backend"
+version = "0.1.0"
+description = "BOB backend (FastAPI + PostgreSQL)"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.111",
+    "uvicorn[standard]>=0.30",
+    "sqlalchemy>=2.0",
+    "psycopg2-binary>=2.9",
+    "python-jose[cryptography]>=3.3",
+    "bcrypt>=4.1",
+    "pydantic-settings>=2.3",
+    "python-multipart>=0.0.9",
+    "email-validator>=2.2",
+]
+
+[tool.uv]
+package = false
