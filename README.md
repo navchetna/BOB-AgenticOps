@@ -3,6 +3,10 @@
 Minimal full-stack app: FastAPI backend, React frontend, PostgreSQL database.
 Includes signup/login and a simple details-submission form.
 
+The frontend also includes a Bank of Baroda-branded workspace demo for
+agentic application-onboarding — see [docs/FEATURES.md](docs/FEATURES.md)
+for a full feature and data-model description.
+
 ## Run it in 3 steps
 
 1. Install [Docker](https://docs.docker.com/get-docker/) (with the Compose plugin) if you don't already have it.
