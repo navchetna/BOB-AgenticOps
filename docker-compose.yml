@@ -11,7 +11,7 @@ services:
       # Published to the host (on 5434, since 5432 is often already taken)
       # so the backend can reach it whether it runs inside Docker (via the
       # `postgres` service name) or on the host (via localhost:5434).
-      - "5434:5432"
+      - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     healthcheck:
